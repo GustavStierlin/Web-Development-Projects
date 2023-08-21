@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Thrift inc Register</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="Register.css">
+    <?php
+	include 'Register.php';
+	?>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="Images/RetroLogo.jfif" width="100" height="auto" class="logo" alt=""></a>
+    </section>
+    
+    
+    
+    <section id="Details">
+        <div class="login wrapper">
+            <div class="container">
+                <div class="left-col">
+                    <div class="Text">
+                        <a href="" class="btn"></a>
+                    </div>
+                </div>
+
+                <div class="col-right">
+                    <div class="login-form">
+                        <h2>Register</h2>
+                        <form action="Register.php" method="GET">
+                            <p>
+                                <label>Customer Name<span>*</span></label>
+                                <input type="text" id="cust_Name" placeholder="Name" name="cust_Name" required>
+                            </p>
+                            <p>
+                                <label>Username/Email address<span>*</span></label>
+                                <input type="email" id="cust_Email" placeholder="Email" name="cust_Email" required>
+                            </p>
+                            <p>
+                                <label>Password<span>*</span></label>
+                                <input type="password" id="cust_Pass" placeholder="Password" name="cust_Pass" required>
+                            </p>
+                            <p>
+                                <div class="form-actions">
+                                    <button type="submit" name="submit" href="index.html">Submit</button>
+                                </div>
+                            </p>                    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
